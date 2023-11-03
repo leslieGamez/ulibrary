@@ -1,0 +1,97 @@
+.add-button-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-button {
+  background-color: #007bff; 
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.blue-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  border-radius: 5px;
+}
+
+.blue-table th {
+  background-color: #fff; 
+  color: #007bff; 
+  padding: 10px;
+  text-align: left;
+}
+
+.blue-table th,
+.blue-table td {
+  padding: 10px;
+  border-bottom: 1px dotted #ccc; 
+}
+
+.blue-table th:not(:first-child) {
+  background-color: #fff; 
+  color: #0056b3; 
+}
+
+
+.edit-icon {
+  color: #007bff; 
+  margin-right: 10px; 
+  cursor: pointer;
+}
+.delete-icon {
+  color: #ff0000; 
+  cursor: pointer;
+  margin-right: 10px; 
+}
+.view-icon {
+  color: 'yellow'; 
+  cursor: pointer;
+  
+}
+
+
+.input-container {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa; 
+  border: 1px solid #ced4da; 
+  border-radius: 4px; 
+  padding: 8px;
+  width: 250px;
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+
+.input-field {
+  flex: 1; 
+  border: none;
+  outline: none; 
+  background: transparent; 
+  font-size: 16px;
+  color: #333; 
+  padding: 4px;
+  margin-right: 8px;
+}
+
+.search-button {
+  background-color: #007bff;
+  color: #fff; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px 16px;
+  font-size: 16px;
+  transition: background-color 0.3s; 
+}
+
+.search-button:hover {
+  background-color: #0056b3; 
+}
+

@@ -1,0 +1,13 @@
+.custom-form-label {
+    text-align: left;
+  }
+  
+  .custom-form-control {
+    text-align: left;
+    margin-left: 0px !important; 
+    margin-bottom: 10px !important;
+  }
+  
+  .form{
+    margin-left: 26px;
+  }
